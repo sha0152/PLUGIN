@@ -1,0 +1,96 @@
+name: VeloraCore
+version: '1.0.0'
+main: com.velora.smp.VeloraCore
+api-version: '1.21'
+softdepend: [PlaceholderAPI]
+authors: [John]
+description: Velora SMP economy survival core
+
+commands:
+  bal:
+    aliases: [balance]
+    permission: velora.balance
+  pay:
+    permission: velora.pay
+  baltop:
+    permission: velora.baltop
+  eco:
+    permission: velora.admin.eco
+  sell:
+    permission: velora.sell
+  worth:
+    permission: velora.worth
+  prices:
+    permission: velora.prices
+  price:
+    permission: velora.admin.price
+  velora:
+    permission: velora.admin
+  ah:
+    permission: velora.ah
+  orders:
+    permission: velora.orders
+  crates:
+    permission: velora.crates
+  rank:
+    permission: velora.rank
+  playtime:
+    permission: velora.playtime
+  quests:
+    permission: velora.quests
+  daily:
+    permission: velora.daily
+  bounty:
+    permission: velora.bounty
+  bounties:
+    permission: velora.bounties
+  stats:
+    permission: velora.stats
+
+permissions:
+  velora.*:
+    default: op
+    children:
+      velora.admin: true
+      velora.admin.eco: true
+      velora.admin.price: true
+  velora.balance:
+    default: true
+  velora.balance.others:
+    default: op
+  velora.pay:
+    default: true
+  velora.baltop:
+    default: true
+  velora.sell:
+    default: true
+  velora.worth:
+    default: true
+  velora.prices:
+    default: true
+  velora.admin:
+    default: op
+  velora.admin.eco:
+    default: op
+  velora.admin.price:
+    default: op
+  velora.ah:
+    default: true
+  velora.orders:
+    default: true
+  velora.crates:
+    default: true
+  velora.rank:
+    default: true
+  velora.playtime:
+    default: true
+  velora.quests:
+    default: true
+  velora.daily:
+    default: true
+  velora.bounty:
+    default: true
+  velora.bounties:
+    default: true
+  velora.stats:
+    default: true

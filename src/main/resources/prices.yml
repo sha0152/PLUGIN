@@ -1,0 +1,28 @@
+defaults:
+  fallback: "8.00"
+  safe-fallback: "1.00"
+
+categories:
+  ores:
+    price: "40.00"
+    materials: [DIAMOND, EMERALD, ANCIENT_DEBRIS, NETHERITE_SCRAP]
+  farming:
+    price: "6.00"
+    materials: [WHEAT, CARROT, POTATO, BEETROOT, MELON_SLICE]
+  mob_drops:
+    price: "10.00"
+    materials: [ROTTEN_FLESH, BONE, STRING, GUNPOWDER, ENDER_PEARL]
+  nether_end:
+    price: "25.00"
+    materials: [BLAZE_ROD, GHAST_TEAR, CHORUS_FRUIT, SHULKER_SHELL]
+
+overrides:
+  COBBLESTONE: "2.00"
+  STONE: "3.00"
+  COAL: "9.00"
+  IRON_INGOT: "16.00"
+  GOLD_INGOT: "22.00"
+  DIAMOND: "75.00"
+  NETHERITE_INGOT: "500.00"
+
+exclusions: []

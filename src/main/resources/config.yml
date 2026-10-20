@@ -1,0 +1,43 @@
+branding:
+  display-name: "Velora SMP"
+  prefix: "<gold><bold>Velora</bold></gold><gray> » </gray>"
+
+modules:
+  economy: true
+  selling: true
+  admin-shop: true
+  auction: true
+  orders: true
+  crates: true
+  ranks: true
+  balance-leaderboard: true
+  playtime-rewards: true
+  quests: true
+  daily-rewards: true
+  bounties: true
+  pvp-stats: true
+  placeholderapi: true
+  scoreboards: false
+
+economy:
+  starting-balance: "0.00"
+  scale: 2
+  max-balance: "1000000000.00"
+  allow-self-pay: false
+  transfer-cooldown-seconds: 0
+
+selling:
+  default-price: "8.00"
+  safe-fallback-price: "1.00"
+  exclusions: []
+  include-offhand: false
+  include-armor: false
+  min-sale: "0.01"
+  max-sale: "1000000.00"
+  cooldown-seconds: 1
+
+database:
+  file: "velora.db"
+  backup-directory: "backups"
+  backup-interval-minutes: 60
+  backup-retention: 24
